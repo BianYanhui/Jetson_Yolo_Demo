@@ -1,0 +1,15 @@
+# Install CUDA PyTorch for Jetson JP6 / CUDA 12.6 first:
+#   pip install torch torchvision --index-url https://pypi.jetson-ai-lab.io/jp6/cu126
+# System package also needed once:
+#   sudo apt-get install -y cudss-cuda-12
+
+flask>=3.0
+opencv-python-headless>=4.8
+numpy>=1.23
+PyYAML>=6.0
+tqdm>=4.65
+scipy>=1.10
+addict>=2.4
+Pillow>=9.0
+requests>=2.28
+matplotlib>=3.7
